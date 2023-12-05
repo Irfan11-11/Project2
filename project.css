@@ -1,0 +1,300 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.bar {
+    height: 32px;
+    width: 100%;
+    /* border: 2px solid; */
+    position: relative;
+    background-color: #6f6856;
+}
+
+.bar p {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+header {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 60px;
+}
+
+.navbar {
+    position: relative;
+    width: 70%;
+    padding: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.searchbox {
+    position: relative;
+    width: 80%;
+    padding-left: 20%;
+}
+
+.searchbox input {
+    width: 80%;
+    height: 30px;
+    border-radius: 3px;
+    padding: 1%;
+    text-indent: 10px;
+    font-size: 18px;
+    color: #5c5c5c;
+}
+
+#searchicon {
+    position: relative;
+    left: -40px;
+    font-size: 22px;
+    color: #5c5c5c;
+    cursor: pointer;
+    z-index: 221;
+
+}
+
+ul {
+    width: 100%;
+    padding-left: 1%;
+}
+
+ul li {
+    display: inline-block;
+    transition: all 0.5s ease;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1px;
+}
+
+
+ul li a {
+    color: #5c5c5c;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+ul li a:active:focus {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.I {
+    padding: 3%;
+    color: #5c5c5c;
+
+}
+
+.I:active,
+:focus {
+    font-weight: 700;
+}
+
+.line {
+
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+
+
+
+}
+
+.line a {
+    color: #5c5c5c;
+    text-decoration: none;
+    font-weight: 2px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+
+}
+
+.line a:hover {
+    text-decoration: underline;
+
+}
+
+/* .heading{
+    border: 1px solid;
+
+    
+} */
+
+.heading h1 {
+    text-align: center;
+}
+
+.photo1 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1 img {
+    max-width: 100%;
+}
+
+/* .photo2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+
+}
+
+
+
+.photo2 img {
+    max-width: 100%;
+}
+
+.para1{
+    margin-left: 75%;
+} */
+
+.photo2 {
+    margin: 50px auto;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.photo2 img {
+    max-width: 520px;
+    float: right;
+    border-radius: 10px;
+    margin-right: -73px;
+    margin-top: -41px;
+
+}
+
+.text1 {
+    padding: 100px;
+    margin-left: -141px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.text1 h2 {
+    font-size: 32px;
+    color: black;
+
+}
+
+.text1 p {
+    font-size: 19px;
+    color: #5c5c5c;
+    text-align: center;
+
+}
+
+.photo3 {
+    margin: 50px auto;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.photo3 img{
+    max-width: 520px;
+    border-radius: 10px;
+    float: left;
+    margin-right:188px;
+    margin-top: -7px; 
+}
+
+.text2{
+    color: black;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+    
+}
+
+.text2 h2{
+    font-size: 32px;
+    color: black;
+}
+
+.text2 h5{
+    color: #5c5c5c;
+    font-size: 21;
+}
+
+.text2 p{
+    color: #5c5c5c;
+    font-size: 19;
+}
+
+.word{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+
+}
+
+.step{
+    margin-left: 144px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.step h4{
+    margin-top: 20px;
+
+}
+
+.step p{
+    margin-top: 20px;
+}
+
+.ptag{
+    color: #5c5c5c;
+    font-family: 'Inter', sans-serif;
+    margin-left: 144px;
+}
+
+.ptag p{
+    margin-top: 20px;
+}
+
+.ptag2{
+    color: #5c5c5c;
+    font-family: 'Inter', sans-serif;
+    margin-left: 144px;
+    padding-top: 50px;
+}
+
+.ptag2 h4{
+    margin-top: 20px;
+}
+
+
+
+
